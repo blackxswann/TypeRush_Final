@@ -1,0 +1,1045 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="StartingFormText10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormText10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NHOVERED_BTNLOGOUT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NHOVERED_BTNLOGOUT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_H_CHANGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\S_H_CHANGE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_period" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_period.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WordBlastersFinalBG2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WordBlastersFinalBG2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormText9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormText9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V_H_VERIFY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\V_H_VERIFY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormText15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormText15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_previousBTN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\t_previousBTN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LeaderboardBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LeaderboardBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_underscore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_underscore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_NH_CANCEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\S_NH_CANCEL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdrill_commonwordspanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pdrill_commonwordspanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f_leaderboard2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f_leaderboard2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormBG2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormBG2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leaderboard3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leaderboard3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drill_nh_goback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drill_nh_goback.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="moonGIF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\moonGIF.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_E.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_NH_VIEWPROFILE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_NH_VIEWPROFILE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="welcomePanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\welcomePanel.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="practiceDrillLessonsBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\practiceDrillLessonsBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormBG8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormBG8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RIGHT_RING" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RIGHT_RING.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormText20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormText20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="finalBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\finalBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PDRILL_NH_BEGIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PDRILL_NH_BEGIN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_nextBTN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\t_nextBTN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leaderboard2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leaderboard2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormText17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormText17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loadGIF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loadGIF.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avatar6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Avatar6.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormText5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormText5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="intermediateSelection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\intermediateSelection.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WordBlasterSpaceShip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WordBlasterSpaceShip.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HOVERED_BTNLEADERBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HOVERED_BTNLEADERBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="L_MIDDLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\L_MIDDLE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_NH_BUTTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T_NH_BUTTON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R_MIDDLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R_MIDDLE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NHOVERED_BTNHOME" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NHOVERED_BTNHOME.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_LogIn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\H_LogIn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SUBCONTAINER_LEVELBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SUBCONTAINER_LEVELBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avatar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Avatar2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_qmark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_qmark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RIGHT_INDEX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RIGHT_INDEX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormText19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormText19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SettingPanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SettingPanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PracticeDrillBG1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PracticeDrillBG1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avatar4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Avatar4.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drill_h_goback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drill_h_goback.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leaderboard4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leaderboard4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LEFT_RING" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LEFT_RING.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2H_GOBACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2H_GOBACK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LEFT_NEUTRAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LEFT_NEUTRAL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_nh_back1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\t_nh_back1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NULL_PROFILE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NULL_PROFILE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormBG9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormBG9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ship" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ship.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_C" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_C.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_NH_TYPINGTEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\H_NH_TYPINGTEST.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_openbracket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_openbracket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_previousButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\t_previousButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdrill_quicksentencepanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pdrill_quicksentencepanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ResetPasswordPanel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ResetPasswordPanel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EmailVerificationPanel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EmailVerificationPanel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormText11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormText11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ASTEROIDVERYFINAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ASTEROIDVERYFINAL.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settingspnl2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settingspnl2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f_leaderboard1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f_leaderboard1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_H_SAVECHANGES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\S_H_SAVECHANGES.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="one" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\one.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_H_BUTTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T_H_BUTTON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TYPERUSHLOGO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TYPERUSHLOGO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_nextButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\t_nextButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_semicolon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_semicolon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_NH_SELECTTEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T_NH_SELECTTEST.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormText4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormText4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormText16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormText16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NewPasswordPanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NewPasswordPanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="completion_stars" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\completion_stars.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormText13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormText13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cloudMovingGIF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cloudMovingGIF.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_h_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\t_h_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avatar5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Avatar5.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TypingTestFinalBGG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TypingTestFinalBGG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f_lead5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f_lead5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdrill_shiftkeypanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pdrill_shiftkeypanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NHOVERED_BTNPRACTICEDRILL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NHOVERED_BTNPRACTICEDRILL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2NH_GOBACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2NH_GOBACK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_S" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_S.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_NH_CHANGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\S_NH_CHANGE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V_H_BACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\V_H_BACK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_N" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_N.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="typingTestFinalistBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\typingTestFinalistBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoadingFormBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LoadingFormBG.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NextButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NextButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WPMBADGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WPMBADGE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avatar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Avatar1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormText6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormText6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LEFT_THUMB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LEFT_THUMB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormText18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormText18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_QUESTION" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_QUESTION.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loginPanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loginPanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_Q" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_Q.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="typingTestSelectionBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\typingTestSelectionBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_CAPS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_CAPS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_SignUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\H_SignUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_NH_DELETEACCOUNT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\S_NH_DELETEACCOUNT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HidePassword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HidePassword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="A_MistakeOverview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A_MistakeOverview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HOVERED_BTNHOME" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HOVERED_BTNHOME.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WordBlasterBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WordBlasterBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LEFT_MIDDLEF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LEFT_MIDDLEF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PDRILL_NH_GOBACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PDRILL_NH_GOBACK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NHOVERED_BTNACHIEVEMENT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NHOVERED_BTNACHIEVEMENT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_K" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_K.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asteroidFINAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asteroidFINAL.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2H_SIGNUP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2H_SIGNUP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HOVERED_BTNPRACTICEDRILL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HOVERED_BTNPRACTICEDRILL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_D.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HOVERED_BTNLOGOUT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HOVERED_BTNLOGOUT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2NH_LOGIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2NH_LOGIN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdrill_toprowpanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pdrill_toprowpanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LEFT_INDEX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LEFT_INDEX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="moonMovingGIF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\moonMovingGIF.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdrill_homerowpanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pdrill_homerowpanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_SHIFT2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_SHIFT2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SettingsPanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SettingsPanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EmailVerificationPanel2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EmailVerificationPanel2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LEFT_PINKY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LEFT_PINKY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_NH_SAVECHANGES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\S_NH_SAVECHANGES.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_Y" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_Y.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Congrats" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Congrats.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blinkingCursor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blinkingCursor.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RIGHT_NEUTRAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RIGHT_NEUTRAL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NHOVERED_BTNPROFILE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NHOVERED_BTNPROFILE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2H_LOGIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2H_LOGIN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RIGHT_MIDDLEF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RIGHT_MIDDLEF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f_lead4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f_lead4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V_H_RESET" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\V_H_RESET.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_U" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_U.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="progressPNL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\progressPNL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R_RING" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R_RING.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_P" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_P.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emojiGIF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emojiGIF.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="L_NEUTRAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\L_NEUTRAL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_BKSP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_BKSP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_ENTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_ENTER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_SHIFT1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_SHIFT1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormText7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormText7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_Z" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_Z.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_T" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_T.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LandingFormBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LandingFormBG.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_nh_back2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\t_nh_back2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RIGHT_THUMB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RIGHT_THUMB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wordBlast1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wordBlast1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hardSelection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hardSelection.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HOVERED_BTNSETTINGS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HOVERED_BTNSETTINGS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RevealPassword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RevealPassword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R_POINTING" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R_POINTING.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WordBlastersFinalBG1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WordBlastersFinalBG1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormText12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormText12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ResetPasswordPanel2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ResetPasswordPanel2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SettingPanel2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SettingPanel2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NH_SignUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NH_SignUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TypingActualTestBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TypingActualTestBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormText1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormText1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R_PINKY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R_PINKY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TypingTestResult" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TypingTestResult.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V_NH_RESET" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\V_NH_RESET.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V_NH_BACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\V_NH_BACK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_closebracket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_closebracket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="resultsFINALBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\resultsFINALBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avatar8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Avatar8.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PDRILL_DRILLBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PDRILL_DRILLBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Analytic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Analytic1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avatar9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Avatar9.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_M" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_M.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdrill_symbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pdrill_symbol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WordBlastersFinalBG3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WordBlastersFinalBG3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_H" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_H.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PDRILL_H_BEGIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PDRILL_H_BEGIN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="L_POINTING" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\L_POINTING.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PDRILL_RESULTSBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PDRILL_RESULTSBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asteroid_f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asteroid_f.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NHOVERED_BTNSETTINGS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NHOVERED_BTNSETTINGS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_PreviousButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\S_PreviousButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_X" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_X.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormText3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormText3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R_THUMB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R_THUMB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdrill_number" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pdrill_number.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TypingTestBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TypingTestBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NHOVERED_BTNACHIEVEMENT1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NHOVERED_BTNACHIEVEMENT1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gnarly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gnarly.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HOVERED_BTNMINIGAMES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HOVERED_BTNMINIGAMES.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_H_DELETEACCOUNT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\S_H_DELETEACCOUNT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wordBlast2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wordBlast2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormBG6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormBG6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_NextButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\S_NextButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="catBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\catBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_SPACE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_SPACE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PDRILL_H_GOBACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PDRILL_H_GOBACK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PracticeDrillBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PracticeDrillBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FinalProfileBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FinalProfileBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PDRILL_H_RETAKE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PDRILL_H_RETAKE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormBG7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormBG7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SettingPanel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SettingPanel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_J" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_J.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Congrats!BG1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Congrats!BG1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_H_SELECTTEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T_H_SELECTTEST.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormText21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormText21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PreviousButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PreviousButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormBG4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormBG4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_NH_MINIGAME" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\H_NH_MINIGAME.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HOVERED_BTNANALYTICS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HOVERED_BTNANALYTICS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R_NEUTRAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R_NEUTRAL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leaderboard1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leaderboard1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="easySelection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\easySelection.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="L_PINKY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\L_PINKY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_V" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_V.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HOMEBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HOMEBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_H_BTNRESETPASSWORD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\S_H_BTNRESETPASSWORD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdrill_wrapuppanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pdrill_wrapuppanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ASTEROID" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ASTEROID.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HOVERED_BTNACHIEVEMENT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HOVERED_BTNACHIEVEMENT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f_leaderboard5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f_leaderboard5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormBG1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormBG1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2NH_SIGNUP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2NH_SIGNUP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NHOVERED_BTNTYPINGTEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NHOVERED_BTNTYPINGTEST.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_I" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_I.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormText2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormText2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="profileFormBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\profileFormBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="picture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\picture.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_NH_BTNRESETPASSWORD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\S_NH_BTNRESETPASSWORD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_O" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_O.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spaceshipGIF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spaceshipGIF.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormText8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormText8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_NH_LEADERBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\H_NH_LEADERBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_nh_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\t_nh_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_H_VIEWPROFILE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_H_VIEWPROFILE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Congrats!BG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Congrats!BG.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PDRILL_NH_RETAKE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PDRILL_NH_RETAKE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdrill_hoveredpanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pdrill_hoveredpanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormBG3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormBG3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UploadYourOwn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UploadYourOwn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WordBlastLandingPageBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WordBlastLandingPageBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asteroidFINAL1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asteroidFINAL1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormBG5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormBG5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_slash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_slash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PracticeDrillActualTestBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PracticeDrillActualTestBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_TAB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_TAB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_A.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProfileBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProfileBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_tilde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_tilde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdrill_bottomrowpanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pdrill_bottomrowpanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartingFormText14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartingFormText14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spaceship_f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spaceship_f.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NH_LogIn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NH_LogIn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FINALEXERCISES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FINALEXERCISES.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_ comma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_ comma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avatar7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Avatar7.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NHOVERED_BTNMINIGAMES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NHOVERED_BTNMINIGAMES.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_H_OPTION" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\H_H_OPTION.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="catBG1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\catBG1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="L_THUMB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\L_THUMB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f_lead1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f_lead1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_F" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_F.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HOVERED_BTNPROFILE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HOVERED_BTNPROFILE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SUBCONTAINERBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SUBCONTAINERBG1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V_NH_VERIFY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\V_NH_VERIFY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WordBlastersFinalBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WordBlastersFinalBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Analytics2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Analytics2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RIGHT_PINKY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RIGHT_PINKY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f_lead2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f_lead2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdrill_shortparagraphpanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pdrill_shortparagraphpanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="A_TypingTest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A_TypingTest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HOVERED_BTNTYPINGTEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HOVERED_BTNTYPINGTEST.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="L_RING" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\L_RING.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NHOVERED_BTNLEADERBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NHOVERED_BTNLEADERBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asteroidFINAL2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asteroidFINAL2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f_leaderboard3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f_leaderboard3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SettingsBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SettingsBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LogInSignUpBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LogInSignUpBG.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_H_CANCEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\S_H_CANCEL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avatar3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Avatar3.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f_leaderboard4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f_leaderboard4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NHOVERED_BTNANALYTICS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NHOVERED_BTNANALYTICS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard_G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard_G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_NH_PDRILL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\H_NH_PDRILL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SignUpPanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SignUpPanel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f_lead3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f_lead3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settingspnl1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settingspnl1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="finalWORDBLASTSCORE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\finalWORDBLASTSCORE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
