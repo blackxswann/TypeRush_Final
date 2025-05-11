@@ -5,7 +5,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace TypeRush_Final
 {
-    public partial class PracticeDrillSelection : UserControl
+    public partial class PracticeDrillSelection : BaseControl
     {
         private Dictionary<int, CategoryProgress> categoryProgressData;
 
@@ -215,76 +215,8 @@ namespace TypeRush_Final
             }
         }
 
-        //private void LoadCategoriesAndExerciseCounts(SqlConnection connection)
-        //{
-        //    string query = @"
-        //        SELECT 
-        //            c.DrillCategoryID,
-        //            c.CategoryName,
-        //            COUNT(e.DrillExerciseID) AS TotalExercises
-        //        FROM DrillCategory c
-        //        LEFT JOIN DrillExercises e ON c.DrillCategoryID = e.DrillCategoryID
-        //        GROUP BY c.DrillCategoryID, c.CategoryName";
-
-        //    using (SqlCommand command = new SqlCommand(query, connection))
-        //    {
-        //        using (SqlDataReader reader = command.ExecuteReader())
-        //        {
-        //            while (reader.Read())
-        //            {
-        //                int categoryID = reader.GetInt32(0);
-        //                string categoryName = reader.GetString(1);
-        //                int totalExercises = reader.GetInt32(2);
-
-        //                categoryProgressData[categoryID] = new CategoryProgress
-        //                {
-        //                    CategoryName = categoryName,
-        //                    TotalExercises = totalExercises,
-        //                    CompletedExercises = 0,
-        //                    TotalStars = 0,
-        //                    MaxPossibleStars = totalExercises * 3 
-        //                };
-        //            }
-        //        }
-        //    }
-
-        //    string exerciseQuery = @"
-        //        SELECT 
-        //            DrillExerciseID,
-        //            DrillCategoryID,
-        //            ExerciseName,
-        //            ExerciseNumber
-        //        FROM DrillExercises
-        //        ORDER BY DrillCategoryID, ExerciseNumber";
-
-        //    using (SqlCommand command = new SqlCommand(exerciseQuery, connection))
-        //    {
-        //        using (SqlDataReader reader = command.ExecuteReader())
-        //        {
-        //            while (reader.Read())
-        //            {
-        //                int exerciseID = reader.GetInt32(0);
-        //                int categoryID = reader.GetInt32(1);
-        //                string exerciseName = reader.GetString(2);
-        //                int exerciseNumber = reader.GetInt32(3);
-
-        //                if (categoryProgressData.ContainsKey(categoryID))
-        //                {
-        //                    categoryProgressData[categoryID].Exercises.Add(new ExerciseProgress
-        //                    {
-        //                        ExerciseID = exerciseID,
-        //                        ExerciseName = exerciseName,
-        //                        ExerciseNumber = exerciseNumber,
-        //                        StarsEarned = 0
-        //                    });
-        //                }
-        //            }
-        //        }
-        //    }
-        //}
         private void LoadCategoriesAndExerciseCounts(SqlConnection connection)
         {
-            // First, get the category information
             string query = @"
         SELECT 
             c.DrillCategoryID,
@@ -304,7 +236,6 @@ namespace TypeRush_Final
                         string categoryName = reader.GetString(1);
                         int totalExercises = reader.GetInt32(2);
 
-                        // Debug output to verify categories
                         Console.WriteLine($"Found category: ID={categoryID}, Name={categoryName}, Exercises={totalExercises}");
 
                         categoryProgressData[categoryID] = new CategoryProgress
@@ -319,7 +250,6 @@ namespace TypeRush_Final
                 }
             }
 
-            // Now load the exercise information for each category
             string exerciseQuery = @"
         SELECT 
             DrillExerciseID,
@@ -377,7 +307,6 @@ namespace TypeRush_Final
             {
                 command.Parameters.AddWithValue("@UserID", userID);
 
-                // Reset counters for all categories
                 foreach (var category in categoryProgressData.Values)
                 {
                     category.CompletedExercises = 0;
@@ -396,14 +325,12 @@ namespace TypeRush_Final
                         {
                             var category = categoryProgressData[categoryID];
 
-                            // Find the exercise in the category's exercises list
                             var exercise = category.Exercises.FirstOrDefault(e => e.ExerciseID == exerciseID);
 
                             if (exercise != null)
                             {
                                 exercise.StarsEarned = starsGained;
 
-                                // Count as completed if any stars were earned
                                 if (starsGained > 0)
                                 {
                                     category.CompletedExercises++;
@@ -419,7 +346,6 @@ namespace TypeRush_Final
                     }
                 }
 
-                // Debug output
                 foreach (var category in categoryProgressData.Values)
                 {
                     Console.WriteLine($"Category {category.CategoryName}: {category.CompletedExercises}/{category.TotalExercises} completed, {category.TotalStars}/{category.MaxPossibleStars} stars");
@@ -428,10 +354,8 @@ namespace TypeRush_Final
         }
         private void UpdateProgressUI()
         {
-            // Debug output to show what categories we have data for
             Console.WriteLine($"Categories in progress data: {string.Join(", ", categoryProgressData.Keys)}");
 
-            // Update progress bars for each category
             if (categoryProgressData.ContainsKey(1))
             {
                 UpdateCategoryProgressBar(1, progressBar1, percentage1);
@@ -472,39 +396,6 @@ namespace TypeRush_Final
             }
         }
 
-        //private void UpdateProgressUI()
-        //{
-
-        //    if (categoryProgressData.ContainsKey(1))
-        //    {
-        //        UpdateCategoryProgressBar(1, progressBar1, percentage1);
-        //        UpdateCategoryStars(1, stars1);
-        //    }
-
-        //    if (categoryProgressData.ContainsKey(2))
-        //    {
-        //        UpdateCategoryProgressBar(2, progressBar2, percentage2);
-        //        UpdateCategoryStars(2, stars2);
-        //    }
-
-        //    if (categoryProgressData.ContainsKey(3))
-        //    {
-        //        UpdateCategoryProgressBar(3, progressBar3, percentage3);
-        //        UpdateCategoryStars(3, stars3);
-        //    }
-
-        //    if (categoryProgressData.ContainsKey(4))
-        //    {
-        //        UpdateCategoryProgressBar(4, progressBar4, percentage4);
-        //        UpdateCategoryStars(4, stars4);
-        //    }
-        //    if (categoryProgressData.ContainsKey(5))
-        //    {
-        //        UpdateCategoryProgressBar(5, progressBar5, percentage5);
-        //        UpdateCategoryStars(5, stars5);
-        //    }
-        //}
-
         public void UpdateCategoryProgressBar(int categoryID, PictureBox progressBar, Label percentageLabel)
         {
             if (progressBar == null || percentageLabel == null)
@@ -522,14 +413,12 @@ namespace TypeRush_Final
             double percentage = categoryProgressData[categoryID].CompletionPercentage;
             Console.WriteLine($"Updating progress bar for category {categoryID}: {percentage}%");
 
-            // Calculate width based on percentage (Max width is 475 pixels)
             int width = (int)(475 * percentage / 100.0);
-            width = Math.Min(475, Math.Max(0, width)); // Ensure width is between 0 and 475
+            width = Math.Min(475, Math.Max(0, width)); 
 
             progressBar.Width = width;
             percentageLabel.Text = $"{percentage:F0}%";
 
-            // Refresh UI to make sure changes are visible
             progressBar.Refresh();
             percentageLabel.Refresh();
         }
@@ -554,7 +443,7 @@ namespace TypeRush_Final
             Console.WriteLine($"Updating stars for category {categoryID}: {stars}/{maxStars}");
 
             starsLabel.Text = $"{stars}/{maxStars}";
-            starsLabel.Refresh(); // Refresh UI to make sure changes are visible
+            starsLabel.Refresh(); 
         }
        
 

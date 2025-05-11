@@ -11,7 +11,7 @@ using TypeRush_Final.Data;
 
 namespace TypeRush_Final
 {
-    public partial class PracticeDrillExercises : UserControl
+    public partial class PracticeDrillExercises : BaseControl
     {
         private int categoryID;
         private int userID;
@@ -31,8 +31,6 @@ namespace TypeRush_Final
 
             SetElements();
         }
-
-        
         private void SetElements()
         {
             try
@@ -121,7 +119,6 @@ namespace TypeRush_Final
             {
                 List<int> exerciseIDs = GetExerciseIDs();
 
-                // Validate we have enough exercise IDs
                 if (exerciseIDs == null || exerciseIDs.Count < 6)
                 {
                     MessageBox.Show($"Could not retrieve enough exercise IDs for category {categoryID}. Expected 6, found {exerciseIDs?.Count ?? 0}.",
@@ -129,10 +126,8 @@ namespace TypeRush_Final
                     return;
                 }
 
-                // Fetch user stars for each exercise
                 Dictionary<int, int> userStars = dbPracticeDrill.GetUserStarsForCategory(userID, categoryID);
 
-                // Update star labels
                 stars1.Text = $"{GetStarsForExercise(userStars, exerciseIDs[0])}/3 stars";
                 stars2.Text = $"{GetStarsForExercise(userStars, exerciseIDs[1])}/3 stars";
                 stars3.Text = $"{GetStarsForExercise(userStars, exerciseIDs[2])}/3 stars";
@@ -181,44 +176,42 @@ namespace TypeRush_Final
                     // Get the actual exercise IDs for this category
                     List<int> exerciseIDs = dbPracticeDrill.GetExerciseIDsForCategory(categoryID);
 
-                    // Make sure we have enough exercise IDs
                     if (exerciseIDs == null || exerciseIDs.Count < 6)
                     {
                         MessageBox.Show("Could not retrieve exercise IDs.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return;
                     }
 
-                    // Get the correct exercise ID based on which button was clicked
                     int actualExerciseID;
 
                     if (btn == btnSelect1)
                     {
-                        actualExerciseID = exerciseIDs[0]; // Use actual database ID for exercise 1
+                        actualExerciseID = exerciseIDs[0]; 
                         subContainerForm.LoadUserControlIntoPanel(new Drill(fcontainer, categoryID, actualExerciseID, subContainerForm));
                     }
                     else if (btn == btnSelect2)
                     {
-                        actualExerciseID = exerciseIDs[1]; // Use actual database ID for exercise 2
+                        actualExerciseID = exerciseIDs[1]; 
                         subContainerForm.LoadUserControlIntoPanel(new Drill(fcontainer, categoryID, actualExerciseID, subContainerForm));
                     }
                     else if (btn == btnSelect3)
                     {
-                        actualExerciseID = exerciseIDs[2]; // Use actual database ID for exercise 3
+                        actualExerciseID = exerciseIDs[2]; 
                         subContainerForm.LoadUserControlIntoPanel(new Drill(fcontainer, categoryID, actualExerciseID, subContainerForm));
                     }
                     else if (btn == btnSelect4)
                     {
-                        actualExerciseID = exerciseIDs[3]; // Use actual database ID for exercise 4
+                        actualExerciseID = exerciseIDs[3]; 
                         subContainerForm.LoadUserControlIntoPanel(new Drill(fcontainer, categoryID, actualExerciseID, subContainerForm));
                     }
                     else if (btn == btnSelect5)
                     {
-                        actualExerciseID = exerciseIDs[4]; // Use actual database ID for exercise 5
+                        actualExerciseID = exerciseIDs[4]; 
                         subContainerForm.LoadUserControlIntoPanel(new Drill(fcontainer, categoryID, actualExerciseID, subContainerForm));
                     }
                     else if (btn == btnSelect6)
                     {
-                        actualExerciseID = exerciseIDs[5]; // Use actual database ID for exercise 6
+                        actualExerciseID = exerciseIDs[5]; 
                         subContainerForm.LoadUserControlIntoPanel(new Drill(fcontainer, categoryID, actualExerciseID, subContainerForm));
                     }
                 }
@@ -245,10 +238,8 @@ namespace TypeRush_Final
         {
             try
             {
-                // Get the drill exercise IDs
                 List<int> exerciseIDs = GetExerciseIDs();
 
-                // Validate we have enough exercise IDs
                 if (exerciseIDs == null || exerciseIDs.Count < 6)
                 {
                     MessageBox.Show($"Could not retrieve enough exercise IDs for performance metrics.",
@@ -256,11 +247,9 @@ namespace TypeRush_Final
                     return;
                 }
 
-                // Fetch user averages for each exercise
                 Dictionary<int, (int avgWPM, int avgAccuracy)> userAverages =
                     dbPracticeDrill.GetUserDrillAverages(userID, categoryID);
 
-                // Update WPM and Accuracy labels
                 lblWPM1.Text = $"WPM: {GetAvgWPM(userAverages, exerciseIDs[0])}";
                 lblWPM2.Text = $"WPM: {GetAvgWPM(userAverages, exerciseIDs[1])}";
                 lblWPM3.Text = $"WPM: {GetAvgWPM(userAverages, exerciseIDs[2])}";
@@ -285,7 +274,6 @@ namespace TypeRush_Final
             return userAverages.ContainsKey(exerciseID) ? userAverages[exerciseID].avgWPM : 0;
         }
 
-        // Helper method to get Accuracy for an exercise
         private int GetAvgAccuracy(Dictionary<int, (int avgWPM, int avgAccuracy)> userAverages, int exerciseID)
         {
             return userAverages.ContainsKey(exerciseID) ? userAverages[exerciseID].avgAccuracy : 0;

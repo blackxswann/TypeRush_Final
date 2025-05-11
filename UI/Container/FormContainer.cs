@@ -5,7 +5,7 @@ namespace TypeRush_Final
         public FormContainer()
         {
             InitializeComponent();
-            LoadUserControlIntoPanel(new LogInForm(this));
+            LoadUserControlIntoPanel(new StartingForm(this));
         }
         protected override CreateParams CreateParams
         {

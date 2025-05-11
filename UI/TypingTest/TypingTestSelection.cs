@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace TypeRush_Final
 {
-    public partial class TypingTestSelection : UserControl
+    public partial class TypingTestSelection : BaseControl
     {
         private int chosenDuration = 0;
         private int difficultyCounter1 = 0, difficultyCounter2 = 0;

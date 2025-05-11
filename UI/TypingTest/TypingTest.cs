@@ -10,7 +10,7 @@ using System.Media;
 
 namespace TypeRush_Final
 {
-    public partial class TypingTest : UserControl
+    public partial class TypingTest : BaseControl
     {
         private bool spacePressed = false;
         private int correctTypedCharacters;

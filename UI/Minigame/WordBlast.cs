@@ -14,7 +14,7 @@ using CrypticWizard.RandomWordGenerator;
 using TypeRush_Final.Data;
 namespace TypeRush_Final.UI.Minigame
 {
-    public partial class WordBlast : UserControl
+    public partial class WordBlast : BaseControl
     {
 
         System.Media.SoundPlayer player = new System.Media.SoundPlayer();

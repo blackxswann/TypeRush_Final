@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace TypeRush_Final.UI.Minigame
 {
-    public partial class WordBlastStart : UserControl
+    public partial class WordBlastStart : BaseControl
     {
 
         private SubContainerForm form;

@@ -12,7 +12,7 @@ using TypeRush_Final.Data;
 
 namespace TypeRush_Final
 {
-    public partial class SignUpForm : UserControl
+    public partial class SignUpForm : BaseControl
     {
         private FormContainer formContainer;
         private List<Image> avatar = new List<Image>();

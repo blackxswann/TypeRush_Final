@@ -7,7 +7,7 @@ using Microsoft.VisualBasic.ApplicationServices;
 
 namespace TypeRush_Final
 {
-    public partial class Drill : UserControl
+    public partial class Drill : BaseControl
     {
         private bool spacePressed = false;
         private int categoryID;

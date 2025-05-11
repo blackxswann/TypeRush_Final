@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TypeRush_Final.AchievementChecker" Collapsed="true">
+    <Position X="4.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAQAEBAAgCAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\AchievementChecker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.CurrentUser" Collapsed="true">
+    <Position X="6.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAEAAAAAAAAAGAAQAAIAgAAABAAEACBAAAAiBAAAA=</HashCode>
+      <FileName>Data\CurrentUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.Data.TypingPerformanceCalculator" Collapsed="true">
+    <Position X="8" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAQEAIgAABAgAAAQAAQAAEAAAAAAAA=</HashCode>
+      <FileName>Data\Calculations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.Data.DBAnalytics" Collapsed="true">
+    <Position X="8" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAARABAAAABAgQAAAAAAAAMAAAAgAAAAAA=</HashCode>
+      <FileName>Data\DBAnalytics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.Data.DBMinigameSession" Collapsed="true">
+    <Position X="4.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAgAABAAAAAAAAAAAEEAAACAAAAAAAA=</HashCode>
+      <FileName>Data\DBMinigame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.Data.DBPracticeDrill" Collapsed="true">
+    <Position X="6.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAABAAAAAAAEAAAFAIBAAAAAAAAQAEMAQAgAAAAAAA=</HashCode>
+      <FileName>Data\DBPracticeDrill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.Data.DBTypingTest" Collapsed="true">
+    <Position X="8" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAQACAAQABCQAAAEAAAAAAAAAAAAAAIACAAAAIAAAA=</HashCode>
+      <FileName>Data\DBTypingTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.Data.DBUserInformation" Collapsed="true">
+    <Position X="4.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAEAAGAAQAAIAgAAABEQEACQEAAAyEAQAE=</HashCode>
+      <FileName>Data\DBUserInformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.Data.TestResult" Collapsed="true">
+    <Position X="6.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAABAAAAAAAAMAAAAIAgAAAAACAAAAAEAAAA=</HashCode>
+      <FileName>Data\TestResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.UI.Analytics.AnalyticsMistakeOverviewcs" Collapsed="true">
+    <Position X="16" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgkAAAAAAOAAQABAAICAgAADEAAhAAAAAAAAAAABAAA=</HashCode>
+      <FileName>UI\Analytics\AnalyticsMistakeOverviewcs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.UI.Analytics.AnalyticsTypingTest" Collapsed="true">
+    <Position X="27.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BwgAAAAAQKAAAFAAhACAgAADEAAhAAEAAAABAAAACAA=</HashCode>
+      <FileName>UI\Analytics\AnalyticsTypingTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.BaseControl" Collapsed="true">
+    <Position X="23.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Container\BaseControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.FormContainer" Collapsed="true">
+    <Position X="8" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAACAAEAAAAACAAAACAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>UI\Container\FormContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.SubContainerForm" Collapsed="true">
+    <Position X="29.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAgAAAAECAAEACAIACQEEACAAUBAEAAgAAIAQkAAQA=</HashCode>
+      <FileName>UI\Container\SubContainerForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.HomeForm" Collapsed="true">
+    <Position X="18.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAABABAHAAAECBYICAEAACBEA5AABAEgAIIABggCA=</HashCode>
+      <FileName>UI\Home\HomeForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.Leaderboard" Collapsed="true">
+    <Position X="29.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MACQAAAARGAAGgAEAEDIAAQjAAIAAAAIAAAQAgAAAAA=</HashCode>
+      <FileName>UI\LevelUpAndLeaderboard\Leaderboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.Drill" Collapsed="true">
+    <Position X="21.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AZeEGBAKEGAgAgAAEACgASACAAAAQADAIAAgEAgAoAA=</HashCode>
+      <FileName>UI\PracticeDrill\Drill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.DrilLResult" Collapsed="true">
+    <Position X="20.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQUAAQAgUCEAAAhQAACgBIACBAwgAANBEMkSMEEAAAA=</HashCode>
+      <FileName>UI\PracticeDrill\DrillResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.PracticeDrillExercises" Collapsed="true">
+    <Position X="32" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QC8AAABAEGAvAwAACACAAAAG3AYpgRAAgEAAIAABAAA=</HashCode>
+      <FileName>UI\PracticeDrill\PracticeDrillExercises.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.PracticeDrillSelection" Collapsed="true">
+    <Position X="20.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IUOAhIBQUCISKJUEAAKAAAACAAQtBwIQCAAAAAgAAAA=</HashCode>
+      <FileName>UI\PracticeDrill\PracticeDrillSelection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.CategoryProgress" Collapsed="true">
+    <Position X="4.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAkAAAAAACAAAIABAAAAAAAAAAQ=</HashCode>
+      <FileName>UI\PracticeDrill\PracticeDrillSelection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.ExerciseProgress" Collapsed="true">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAABAQAAAACAAAAAA=</HashCode>
+      <FileName>UI\PracticeDrill\PracticeDrillSelection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.ProfileForm" Collapsed="true">
+    <Position X="23" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBEAAAAAEGAAAFBBAAiABAECAEAAAAEAAAAAEAIAAAA=</HashCode>
+      <FileName>UI\Profile\ProfileForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.SettingsForm" Collapsed="true">
+    <Position X="34.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAgAAAECgABAFBgRCBAAAGAAAhA0IIkAAAAABgAgA=</HashCode>
+      <FileName>UI\Settings\SettingsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.TypingTest" Collapsed="true">
+    <Position X="22.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwQHEQAAASAAAIAQCACwQIAChAIAAABAKAAoBAgAAAA=</HashCode>
+      <FileName>UI\TypingTest\TypingTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.TypingTestSelection" Collapsed="true">
+    <Position X="31.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFAAAUAkGAAgAAAJACAACgCAgChAQIACABAwAIAAAA=</HashCode>
+      <FileName>UI\TypingTest\TypingTestSelection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.ConfirmationCodeForm" Collapsed="true">
+    <Position X="16.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQgAAAAkDDoAQAgBACFAYEGBAQhEQBAAABIAwIAAgA=</HashCode>
+      <FileName>UI\UserAuthentication\ConfirmationCodeForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.LandingForm" Collapsed="true">
+    <Position X="25.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IkAAAAAAECAAAAAAAACAAAAKCAQhAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\UserAuthentication\LandingForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.LogInForm" Collapsed="true">
+    <Position X="23.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAABAkCEABAAABACAIgADBEQhA0BAAABAAAAAAIA=</HashCode>
+      <FileName>UI\UserAuthentication\LogInForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.SignUpForm" Collapsed="true">
+    <Position X="25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IoQAgIgAkCAABEBAhICCAQAGFNQhE0JAggBAEAAgAAA=</HashCode>
+      <FileName>UI\UserAuthentication\SignUpForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.StartingForm" Collapsed="true">
+    <Position X="34" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBAAAAAhCAAAAAAhAiAAARCAARgIAJcEAAAoFAAAAE=</HashCode>
+      <FileName>UI\UserAuthentication\StartingForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.UI.Minigame.WordBlast" Collapsed="true">
+    <Position X="18.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QUiVIAgBYKAWAMQBAALKQQCiggCAAQEBAAECgQhwBRE=</HashCode>
+      <FileName>UI\Minigame\WordBlast.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.UI.Minigame.WordBlastStart" Collapsed="true">
+    <Position X="27.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAQAAACAAAgAAAACEAAACgAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>UI\Minigame\WordBlastStart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeRush_Final.UI.TypingTest.TypingTestResult" Collapsed="true">
+    <Position X="26" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAQSEABNhUCACABJACAAQgAANBCKhwPEAgAAA=</HashCode>
+      <FileName>UI\TypingTest\TypingTestResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

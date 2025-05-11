@@ -11,7 +11,7 @@ using TypeRush_Final.Data;
 
 namespace TypeRush_Final
 {
-    public partial class ProfileForm : UserControl
+    public partial class ProfileForm : BaseControl
     {
         SubContainerForm subContainerForm;
         private FormContainer fcontainer;
@@ -19,9 +19,9 @@ namespace TypeRush_Final
         {
             InitializeComponent();
             this.fcontainer = fcontainer;
-            this.subContainerForm = form; // Fixed: storing the passed form reference
-            DisplayUserStats(); // Get stats first
-            SetElements();      // Then set UI elements with stats
+            this.subContainerForm = form; 
+            DisplayUserStats(); 
+            SetElements();      
         }
 
         private void SetElements()

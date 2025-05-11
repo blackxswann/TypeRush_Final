@@ -1,12 +1,11 @@
 ﻿using Microsoft.Data.SqlClient;
 using System;
 using System.Windows.Forms;
-using TypeRush_Final.UI.AchievementsAndLeaderboard;
-using TypeRush_Final.UI.LevelUpAndLeaderboard;
+
 
 namespace TypeRush_Final
 {
-    public partial class DrilLResult : UserControl
+    public partial class DrilLResult : BaseControl
     {
         private string[] messages = {
         "CONGRATULATIONS! YOU LEVELED UP!",

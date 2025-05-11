@@ -236,9 +236,7 @@ WHERE u.Username = @Username";
                                 CurrentUser.NextLevelName = userInfo.NextLevelName;
                                 CurrentUser.NextLevelXPRequired = userInfo.NextLevelXPRequired;
 
-                                MessageBox.Show($"Current Level: {userInfo.CurrentLevel}, Next Level ID: {userInfo.NextLevelID ?? "None"}, " +
-                                               $"Next Level Name: {userInfo.NextLevelName ?? "None"}, " +
-                                               $"Next Level XP Required: {userInfo.NextLevelXPRequired ?? "None"}");
+                           
 
                                 return userInfo;
                             }

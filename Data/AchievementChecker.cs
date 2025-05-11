@@ -1,8 +1,7 @@
 ﻿using Microsoft.Data.SqlClient;
 using System;
 using System.Windows.Forms;
-using TypeRush_Final.UI.AchievementsAndLeaderboard;
-using TypeRush_Final.UI.LevelUpAndLeaderboard;
+
 
 namespace TypeRush_Final
 {

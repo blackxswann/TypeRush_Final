@@ -1,4 +1,3 @@
-using TypeRush_Final.UI.LevelUpAndLeaderboard;
 
 namespace TypeRush_Final
 {

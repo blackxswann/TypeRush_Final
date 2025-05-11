@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace TypeRush_Final
 {
-    public partial class LandingForm : UserControl
+    public partial class LandingForm : BaseControl
     {
         FormContainer formContainer;
         public LandingForm(FormContainer form)

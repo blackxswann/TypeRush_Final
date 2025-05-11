@@ -11,7 +11,6 @@ using System.Windows.Forms;
 using TypeRush_Final.Data;
 using TypeRush_Final.UI.Minigame;
 using TypeRush_Final.UI.Analytics;
-using TypeRush_Final.UI.AchievementsAndLeaderboard;
 namespace TypeRush_Final
 {
     public partial class SubContainerForm : BaseControl

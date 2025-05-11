@@ -90,11 +90,11 @@
             // 
             Lesson1.AutoSize = true;
             Lesson1.BackColor = Color.FromArgb(101, 73, 112);
-            Lesson1.Font = new Font("Vaticanus", 20F);
+            Lesson1.Font = new Font("Vaticanus", 18F);
             Lesson1.ForeColor = Color.FromArgb(249, 237, 177);
-            Lesson1.Location = new Point(235, 345);
+            Lesson1.Location = new Point(208, 349);
             Lesson1.Name = "Lesson1";
-            Lesson1.Size = new Size(101, 35);
+            Lesson1.Size = new Size(90, 31);
             Lesson1.TabIndex = 2;
             Lesson1.Text = "label2";
             // 
@@ -102,11 +102,11 @@
             // 
             Lesson2.AutoSize = true;
             Lesson2.BackColor = Color.FromArgb(101, 73, 112);
-            Lesson2.Font = new Font("Vaticanus", 20F);
+            Lesson2.Font = new Font("Vaticanus", 18F);
             Lesson2.ForeColor = Color.FromArgb(249, 237, 177);
-            Lesson2.Location = new Point(235, 427);
+            Lesson2.Location = new Point(208, 426);
             Lesson2.Name = "Lesson2";
-            Lesson2.Size = new Size(101, 35);
+            Lesson2.Size = new Size(90, 31);
             Lesson2.TabIndex = 3;
             Lesson2.Text = "label3";
             // 
@@ -114,11 +114,11 @@
             // 
             Lesson3.AutoSize = true;
             Lesson3.BackColor = Color.FromArgb(101, 73, 112);
-            Lesson3.Font = new Font("Vaticanus", 20F);
+            Lesson3.Font = new Font("Vaticanus", 18F);
             Lesson3.ForeColor = Color.FromArgb(249, 237, 177);
-            Lesson3.Location = new Point(235, 510);
+            Lesson3.Location = new Point(208, 510);
             Lesson3.Name = "Lesson3";
-            Lesson3.Size = new Size(101, 35);
+            Lesson3.Size = new Size(90, 31);
             Lesson3.TabIndex = 4;
             Lesson3.Text = "label4";
             // 
@@ -126,11 +126,11 @@
             // 
             Lesson4.AutoSize = true;
             Lesson4.BackColor = Color.FromArgb(101, 73, 112);
-            Lesson4.Font = new Font("Vaticanus", 20F);
+            Lesson4.Font = new Font("Vaticanus", 18F);
             Lesson4.ForeColor = Color.FromArgb(249, 237, 177);
-            Lesson4.Location = new Point(235, 589);
+            Lesson4.Location = new Point(208, 587);
             Lesson4.Name = "Lesson4";
-            Lesson4.Size = new Size(101, 35);
+            Lesson4.Size = new Size(90, 31);
             Lesson4.TabIndex = 5;
             Lesson4.Text = "label5";
             // 
@@ -138,11 +138,11 @@
             // 
             Lesson5.AutoSize = true;
             Lesson5.BackColor = Color.FromArgb(101, 73, 112);
-            Lesson5.Font = new Font("Vaticanus", 20F);
+            Lesson5.Font = new Font("Vaticanus", 18F);
             Lesson5.ForeColor = Color.FromArgb(249, 237, 177);
-            Lesson5.Location = new Point(235, 671);
+            Lesson5.Location = new Point(208, 674);
             Lesson5.Name = "Lesson5";
-            Lesson5.Size = new Size(101, 35);
+            Lesson5.Size = new Size(90, 31);
             Lesson5.TabIndex = 6;
             Lesson5.Text = "label6";
             // 
@@ -150,11 +150,11 @@
             // 
             Lesson6.AutoSize = true;
             Lesson6.BackColor = Color.FromArgb(101, 73, 112);
-            Lesson6.Font = new Font("Vaticanus", 20F);
+            Lesson6.Font = new Font("Vaticanus", 18F);
             Lesson6.ForeColor = Color.FromArgb(249, 237, 177);
-            Lesson6.Location = new Point(235, 758);
+            Lesson6.Location = new Point(208, 764);
             Lesson6.Name = "Lesson6";
-            Lesson6.Size = new Size(101, 35);
+            Lesson6.Size = new Size(90, 31);
             Lesson6.TabIndex = 7;
             Lesson6.Text = "label7";
             // 
@@ -249,7 +249,7 @@
             stars1.BackColor = Color.FromArgb(101, 73, 112);
             stars1.Font = new Font("Vaticanus", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             stars1.ForeColor = Color.FromArgb(254, 232, 139);
-            stars1.Location = new Point(592, 345);
+            stars1.Location = new Point(606, 345);
             stars1.Name = "stars1";
             stars1.Size = new Size(159, 28);
             stars1.TabIndex = 0;
@@ -261,7 +261,7 @@
             stars2.BackColor = Color.FromArgb(101, 73, 112);
             stars2.Font = new Font("Vaticanus", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             stars2.ForeColor = Color.FromArgb(254, 232, 139);
-            stars2.Location = new Point(592, 429);
+            stars2.Location = new Point(606, 429);
             stars2.Name = "stars2";
             stars2.Size = new Size(159, 28);
             stars2.TabIndex = 0;
@@ -273,7 +273,7 @@
             stars3.BackColor = Color.FromArgb(101, 73, 112);
             stars3.Font = new Font("Vaticanus", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             stars3.ForeColor = Color.FromArgb(254, 232, 139);
-            stars3.Location = new Point(592, 510);
+            stars3.Location = new Point(606, 510);
             stars3.Name = "stars3";
             stars3.Size = new Size(159, 28);
             stars3.TabIndex = 0;
@@ -285,7 +285,7 @@
             stars4.BackColor = Color.FromArgb(101, 73, 112);
             stars4.Font = new Font("Vaticanus", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             stars4.ForeColor = Color.FromArgb(254, 232, 139);
-            stars4.Location = new Point(592, 597);
+            stars4.Location = new Point(606, 597);
             stars4.Name = "stars4";
             stars4.Size = new Size(159, 28);
             stars4.TabIndex = 0;
@@ -297,7 +297,7 @@
             stars5.BackColor = Color.FromArgb(101, 73, 112);
             stars5.Font = new Font("Vaticanus", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             stars5.ForeColor = Color.FromArgb(254, 232, 139);
-            stars5.Location = new Point(592, 681);
+            stars5.Location = new Point(606, 686);
             stars5.Name = "stars5";
             stars5.Size = new Size(159, 28);
             stars5.TabIndex = 0;
@@ -309,7 +309,7 @@
             stars6.BackColor = Color.FromArgb(101, 73, 112);
             stars6.Font = new Font("Vaticanus", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             stars6.ForeColor = Color.FromArgb(254, 232, 139);
-            stars6.Location = new Point(592, 762);
+            stars6.Location = new Point(606, 767);
             stars6.Name = "stars6";
             stars6.Size = new Size(159, 28);
             stars6.TabIndex = 0;
@@ -321,7 +321,7 @@
             lblWPM1.BackColor = Color.FromArgb(101, 73, 112);
             lblWPM1.Font = new Font("Vaticanus", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblWPM1.ForeColor = Color.FromArgb(254, 232, 139);
-            lblWPM1.Location = new Point(771, 345);
+            lblWPM1.Location = new Point(789, 345);
             lblWPM1.Name = "lblWPM1";
             lblWPM1.Size = new Size(149, 28);
             lblWPM1.TabIndex = 28;
@@ -333,7 +333,7 @@
             lblAccuracy1.BackColor = Color.FromArgb(101, 73, 112);
             lblAccuracy1.Font = new Font("Vaticanus", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblAccuracy1.ForeColor = Color.FromArgb(254, 232, 139);
-            lblAccuracy1.Location = new Point(953, 345);
+            lblAccuracy1.Location = new Point(973, 345);
             lblAccuracy1.Name = "lblAccuracy1";
             lblAccuracy1.Size = new Size(198, 28);
             lblAccuracy1.TabIndex = 29;
@@ -345,7 +345,7 @@
             lblWPM2.BackColor = Color.FromArgb(101, 73, 112);
             lblWPM2.Font = new Font("Vaticanus", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblWPM2.ForeColor = Color.FromArgb(254, 232, 139);
-            lblWPM2.Location = new Point(771, 426);
+            lblWPM2.Location = new Point(789, 429);
             lblWPM2.Name = "lblWPM2";
             lblWPM2.Size = new Size(149, 28);
             lblWPM2.TabIndex = 30;
@@ -357,7 +357,7 @@
             lblAccuracy2.BackColor = Color.FromArgb(101, 73, 112);
             lblAccuracy2.Font = new Font("Vaticanus", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblAccuracy2.ForeColor = Color.FromArgb(254, 232, 139);
-            lblAccuracy2.Location = new Point(953, 426);
+            lblAccuracy2.Location = new Point(973, 426);
             lblAccuracy2.Name = "lblAccuracy2";
             lblAccuracy2.Size = new Size(198, 28);
             lblAccuracy2.TabIndex = 31;
@@ -369,7 +369,7 @@
             lblWPM3.BackColor = Color.FromArgb(101, 73, 112);
             lblWPM3.Font = new Font("Vaticanus", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblWPM3.ForeColor = Color.FromArgb(254, 232, 139);
-            lblWPM3.Location = new Point(771, 510);
+            lblWPM3.Location = new Point(789, 510);
             lblWPM3.Name = "lblWPM3";
             lblWPM3.Size = new Size(149, 28);
             lblWPM3.TabIndex = 32;
@@ -381,7 +381,7 @@
             lblAccuracy3.BackColor = Color.FromArgb(101, 73, 112);
             lblAccuracy3.Font = new Font("Vaticanus", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblAccuracy3.ForeColor = Color.FromArgb(254, 232, 139);
-            lblAccuracy3.Location = new Point(953, 510);
+            lblAccuracy3.Location = new Point(973, 510);
             lblAccuracy3.Name = "lblAccuracy3";
             lblAccuracy3.Size = new Size(198, 28);
             lblAccuracy3.TabIndex = 33;
@@ -393,7 +393,7 @@
             lblWPM4.BackColor = Color.FromArgb(101, 73, 112);
             lblWPM4.Font = new Font("Vaticanus", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblWPM4.ForeColor = Color.FromArgb(254, 232, 139);
-            lblWPM4.Location = new Point(771, 599);
+            lblWPM4.Location = new Point(789, 597);
             lblWPM4.Name = "lblWPM4";
             lblWPM4.Size = new Size(149, 28);
             lblWPM4.TabIndex = 34;
@@ -405,7 +405,7 @@
             lblAccuracy4.BackColor = Color.FromArgb(101, 73, 112);
             lblAccuracy4.Font = new Font("Vaticanus", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblAccuracy4.ForeColor = Color.FromArgb(254, 232, 139);
-            lblAccuracy4.Location = new Point(953, 599);
+            lblAccuracy4.Location = new Point(973, 597);
             lblAccuracy4.Name = "lblAccuracy4";
             lblAccuracy4.Size = new Size(198, 28);
             lblAccuracy4.TabIndex = 35;
@@ -417,7 +417,7 @@
             lblWPM5.BackColor = Color.FromArgb(101, 73, 112);
             lblWPM5.Font = new Font("Vaticanus", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblWPM5.ForeColor = Color.FromArgb(254, 232, 139);
-            lblWPM5.Location = new Point(771, 681);
+            lblWPM5.Location = new Point(789, 686);
             lblWPM5.Name = "lblWPM5";
             lblWPM5.Size = new Size(149, 28);
             lblWPM5.TabIndex = 36;
@@ -429,7 +429,7 @@
             lblAccuracy5.BackColor = Color.FromArgb(101, 73, 112);
             lblAccuracy5.Font = new Font("Vaticanus", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblAccuracy5.ForeColor = Color.FromArgb(254, 232, 139);
-            lblAccuracy5.Location = new Point(953, 681);
+            lblAccuracy5.Location = new Point(973, 686);
             lblAccuracy5.Name = "lblAccuracy5";
             lblAccuracy5.Size = new Size(198, 28);
             lblAccuracy5.TabIndex = 37;
@@ -441,7 +441,7 @@
             lblWPM6.BackColor = Color.FromArgb(101, 73, 112);
             lblWPM6.Font = new Font("Vaticanus", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblWPM6.ForeColor = Color.FromArgb(254, 232, 139);
-            lblWPM6.Location = new Point(771, 762);
+            lblWPM6.Location = new Point(789, 767);
             lblWPM6.Name = "lblWPM6";
             lblWPM6.Size = new Size(149, 28);
             lblWPM6.TabIndex = 38;
@@ -453,7 +453,7 @@
             lblAccuracy6.BackColor = Color.FromArgb(101, 73, 112);
             lblAccuracy6.Font = new Font("Vaticanus", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblAccuracy6.ForeColor = Color.FromArgb(254, 232, 139);
-            lblAccuracy6.Location = new Point(953, 762);
+            lblAccuracy6.Location = new Point(973, 764);
             lblAccuracy6.Name = "lblAccuracy6";
             lblAccuracy6.Size = new Size(198, 28);
             lblAccuracy6.TabIndex = 39;

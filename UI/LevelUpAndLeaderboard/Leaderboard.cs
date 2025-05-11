@@ -12,7 +12,7 @@ using OpenTK.Graphics.ES20;
 
 namespace TypeRush_Final
 {
-    public partial class Leaderboard : UserControl
+    public partial class Leaderboard : BaseControl
     {
         private string _connectionString = @"Server=.\SQLEXPRESS;Database=Users;Integrated Security=True;TrustServerCertificate=True;";
         FormContainer fcontainer;
@@ -78,7 +78,7 @@ namespace TypeRush_Final
                                 string username = reader["Username"].ToString();
                                 string displayName = reader["DisplayName"].ToString();
 
-                                var row = new object[11]; // Array to accommodate all columns
+                                var row = new object[11]; 
                                 row[0] = rank;
                                 row[1] = username;
                                 row[2] = displayName;
@@ -183,7 +183,6 @@ namespace TypeRush_Final
                     HighestScore DESC";
                     break;
 
-                // Other cases remain the same
                 case "Level":
                     query = @"
                 SELECT 

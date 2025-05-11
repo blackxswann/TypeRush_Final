@@ -59,7 +59,6 @@ namespace TypeRush_Final.Data
                 {
                     connection.Open();
 
-                    // Modified query to use DrillExerciseID directly
                     string query = "SELECT Words FROM DrillExercises WHERE DrillExerciseID = @DrillExerciseID";
 
                     using (SqlCommand command = new SqlCommand(query, connection))
@@ -198,7 +197,6 @@ namespace TypeRush_Final.Data
 
         private int CalculateWPM(int correctChars, int durationSeconds)
         {
-            // Standard WPM calculation: (characters / 5) / minutes
             double minutes = durationSeconds / 60.0;
             int wpm = (int)Math.Round((correctChars / 5.0) / minutes);
             return wpm;

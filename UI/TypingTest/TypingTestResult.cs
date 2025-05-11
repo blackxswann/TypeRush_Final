@@ -15,7 +15,7 @@ using Microsoft.Data.SqlClient;
 
 namespace TypeRush_Final.UI.TypingTest
 {
-    public partial class TypingTestResult : UserControl
+    public partial class TypingTestResult : BaseControl
     {
         private string[] messages = {
             "CONGRATULATIONS! YOU LEVELED UP!",
@@ -324,9 +324,6 @@ namespace TypeRush_Final.UI.TypingTest
 
         private void UpdateUserXP(int xpGained)
         {
-            MessageBox.Show($"About to update XP with value: {xpGained}");
-
-
             try
             {
                 using (SqlConnection connection = new SqlConnection(connectionString))

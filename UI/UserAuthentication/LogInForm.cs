@@ -9,8 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TypeRush_Final.Data;
-using TypeRush_Final.UI.AchievementsAndLeaderboard;
-using TypeRush_Final.UI.LevelUpAndLeaderboard;
+
 
 namespace TypeRush_Final
 {
